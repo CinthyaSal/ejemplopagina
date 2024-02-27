@@ -1,0 +1,35 @@
+h1{
+    color:#bcdf1f; 
+}
+.header{
+    background-color: #2d13d8;
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    background-color: darkmagenta;
+    display: flex;
+    justify-content: space-between;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.item{
+    font-family: Arial;
+    font-size: larger;
+    color: red;
+}
+p{
+    font-family: Helvetica;
+    font-size: medium;
+    font-style: oblique;
+    color: blueviolet;
+}
+.footer{
+    justify-items: end;
+    display: flex;
+    justify-content: end;
+    background-color: #bcdf1f;
+}
