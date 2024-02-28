@@ -1,15 +1,23 @@
 h1{
-    color:#bcdf1f; 
+    color:#070408; 
+}
+h2{
+    color: aliceblue;
+}
+body{
+    background-color: #f7f7f7;
 }
 .header{
-    background-color: #2d13d8;
+    
     display: flex;
     justify-content: space-between;
 }
 .menu{
-    background-color: darkmagenta;
+    background-color: #b4d3b2;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    font-family: monospace;
+    font-size: 30px;
 }
 .grid{
     display: flex;
@@ -19,17 +27,17 @@ h1{
 .item{
     font-family: Arial;
     font-size: larger;
-    color: red;
+    color: #f1f1f8;
+    background-color: #b4d3b2;
 }
 p{
     font-family: Helvetica;
-    font-size: medium;
-    font-style: oblique;
-    color: blueviolet;
+    font-size: 30px;
+    font-family:Lucida sans-serif;
+    color: rgb(1, 1, 1);
 }
 .footer{
     justify-items: end;
     display: flex;
     justify-content: end;
-    background-color: #bcdf1f;
 }
